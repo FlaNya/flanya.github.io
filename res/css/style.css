@@ -1,0 +1,150 @@
+html {
+  background-color: #0c0c0c;
+  height: 100%;
+  user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+}
+
+body {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  color: #adadad;
+}
+
+h1 {
+  color: #f7f7f7;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  margin: 5 0 30px 0;
+}
+
+b {
+  color: #f7f7f7;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+h2 {
+  color: #f7f7f7;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  margin: 5 0 30px 0;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.main-content {
+    width: 250px;
+    top: 38%;
+    left: 50%;
+    position: absolute;
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+}
+
+/* Figure Image */
+figure {
+  margin-bottom: 1.5em;
+  display: block;
+}
+
+/* Icons */
+.social {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: block;
+}
+.social li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  position: relative;
+}
+.social li a {
+  font-size: 22px;
+  color: #f7f7f7;
+  padding: 8px 8px;
+  display: -moz-inline-stack;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-repeat: no-repeat;
+  }
+
+  .social li a {
+    padding: 10px 8px;
+    visibility: visible;
+  }
+}
+
+.social li a:hover {
+  color: #ff3270;
+}
+
+.social li a:hover, .social li a:active, .social li a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+/* Footer */
+#footer {
+  color: #adadad;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Particles container */
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: #0c0c0c;
+  text-align: center;
+}
+
+/*
+     FILE ARCHIVED ON 05:19:27 Feb 16, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:14:36 Mar 08, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 271.165
+  exclusion.robots: 0.479
+  RedisCDXSource: 18.668
+  exclusion.robots.policy: 0.455
+  LoadShardBlock: 225.296 (3)
+  CDXLines.iter: 21.515 (3)
+  PetaboxLoader3.resolve: 79.542
+  PetaboxLoader3.datanode: 174.187 (4)
+  load_resource: 171.009
+  esindex: 0.023
+*/
